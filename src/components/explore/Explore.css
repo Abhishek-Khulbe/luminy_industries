@@ -1,0 +1,32 @@
+.exploreContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+a {
+  color: inherit;
+}
+
+.explore {
+  width: 80%;
+  height: 20rem;
+  display: grid;
+  place-items: center;
+  background-color: var(--clr-primary-5);
+}
+
+.gamesExplore {
+  width: 80%;
+  height: 20rem;
+  display: grid;
+  place-items: center;
+  background-color: var(--clr-primary-5);
+}
+
+@media screen and (max-width: 640px) {
+  .exploreContainer {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+  }
+}

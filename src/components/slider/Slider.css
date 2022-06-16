@@ -1,0 +1,10 @@
+.poster {
+  margin-top: 2rem;
+}
+
+.posterImg {
+  width: 70%;
+  height: 30rem;
+  object-fit: cover;
+  object-position: 30% 0%;
+}

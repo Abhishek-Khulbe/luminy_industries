@@ -1,0 +1,20 @@
+.games {
+  display: flex;
+  margin: 1rem;
+  overflow-y: scroll;
+}
+
+.games::-webkit-scrollbar {
+  display: none;
+}
+
+.singleGame {
+  margin: 1rem;
+}
+
+.singleGame img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  object-position: 50% 10%;
+}
